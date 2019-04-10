@@ -61,12 +61,11 @@ for(m=1;m<n;m++)
  {
  	printf("P %d ",pr[m]);
  }
- 
-printf("\n\nProcess \t Burst_Time \t Wait_Time \t Turn_Around_Time   Priority \tArrival_Time \n");
-for(m=0;m<n;m++)
-{
-printf("\n  %d",pr[m]); printf("\t\t %d",bt[m]); printf("\t\t %d",wait[m]); printf("\t\t %d",time[m]); printf("\t\t %d",tp[m]); printf("\t\t %d",at[m]);
-}
+  printf("\n\nProcess \t Burst_Time \t Wait_Time \t Turn_Around_Time   Priority \tArrival_Time \n");
+  for(m=0;m<n;m++)
+   {
+     printf("\n  %d",pr[m]); printf("\t\t %d",bt[m]); printf("\t\t %d",wait[m]); printf("\t\t %d",time[m]); printf("\t\t %d",tp[m]); printf("\t\t %d",at[m]);
+   }
 awt=awt/n;
 att=att/n;
 printf("\n Average Wait Time : %d ",awt);
