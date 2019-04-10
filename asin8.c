@@ -20,14 +20,14 @@ int main()
     }
  
 
-int p;
+ int p;
   for(m=0;m<n-1;m++)
-   {
-     for(p=m+1;p<n;p++)
-     {
-       if(tp[m]<tp[p])
-       {
-     a=tp[m];
+  {
+   for(p=m+1;p<n;p++)
+    {
+     if(tp[m]<tp[p])
+      {
+       a=tp[m];
      tp[m]=tp[p];
      tp[p]=a;
      a=bt[p];
