@@ -22,7 +22,7 @@ int main()
         }
     }
    
-    printf("\t\nBilling Order by studnets\n");
+    printf("\t\nBilling Order by students\n");
 
         for (l= 0; l < n; ++l)
         {
